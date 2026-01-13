@@ -1,6 +1,7 @@
 **Sentiment Analysis using BiLSTM (End-to-End NLP Pipeline)**
 
 This project implements a production-grade sentiment analysis system using Bidirectional LSTM (BiLSTM).
+
 It follows a clean ML pipeline architecture with preprocessing, tokenization, training, evaluation, and artifact management.
 
 The goal is to demonstrate industry-standard NLP workflow using Python, TensorFlow/Keras, and Pandas.
@@ -24,36 +25,66 @@ Reproducible training & evaluation
 Validation accuracy ~84% and external validation ~93%
 
 RNN_new/
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   │   ├── twitter_training.csv
+
 │   │   └── twitter_validation.csv
+
 │   │
 │   ├── processed/
+
 │   │   ├── train_processed.csv
+
 │   │   └── val_processed.csv
+
 │
+
 ├── artifacts/
+
 │   ├── sentiment_model.h5
+
 │   ├── tokenizer.pkl
+
 │   └── label_encoder.pkl
+
 │
+
 ├── src/
+
 │   ├── __init__.py
+
 │   ├── config.py
+
 │   ├── preprocess.py
+
 │   ├── text_tokenizer.py
+
 │   ├── model.py
+
 │   ├── train.py
+
 │   ├── evaluate.py
+
 │   └── utils.py
+
 │
+
 ├── notebooks/
+
 │   └── exploration.ipynb
+
 │
+
 ├── README.md
+
 ├── requirements.txt
+
 └── .gitignore
 
 **📊 Dataset**
@@ -67,6 +98,7 @@ text → Input feature (X)
 sentiment → Target label (y)
 
 Only the text column is tokenized and fed to the model.
+
 The sentiment column is label-encoded and used as the prediction target
 
 
@@ -177,8 +209,11 @@ Install dependencies:
 pip install -r requirements.txt
 
 🏁 How to Run the Project (Order Matters)
+
 python src/preprocess.py
+
 python src/train.py
+
 python src/evaluate.py
 
 **Evaluation matrix**
@@ -200,7 +235,9 @@ weighted avg       0.94      0.94      0.94      1000
 🧑‍💻 Author
 
 Swapnil Sudhakar Patil
+
 Electronics Engineer → Data Scientist / GenAI Engineer
+
 Specialized in NLP, Deep Learning, and Production ML Pipelines
 
 📌 Future Improvements
