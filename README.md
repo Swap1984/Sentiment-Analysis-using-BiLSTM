@@ -6,6 +6,20 @@ It follows a clean ML pipeline architecture with preprocessing, tokenization, tr
 
 The goal is to demonstrate industry-standard NLP workflow using Python, TensorFlow/Keras, and Pandas.
 
+## 📓 Jupyter Notebook (Rendered)
+
+If GitHub does not render the notebook properly, you can view it here:
+
+🔗 **Notebook Viewer (nbviewer)**  
+https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/notebooks/Sentiment_Analysis_BiLSTM.ipynb
+
+## 📓 Jupyter Notebook (Rendered)
+
+If GitHub does not render the notebook properly, you can view it here:
+
+🔗 **Notebook Viewer (nbviewer)**  
+https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/notebooks/Sentiment_Analysis_BiLSTM.ipynb
+
 **📌 Project Highlights**
 
 End-to-end NLP pipeline (raw data → trained model)
@@ -79,7 +93,18 @@ RNN_new/
 
 │   └── exploration.ipynb
 
-│
+│    └── results/
+
+    ├── metrics.txt
+    
+    ├── classification_report.txt
+    
+    ├── confusion_matrix.png
+    
+    ├── training_history.csv
+    
+    └── final_inference.md
+
 
 ├── README.md
 
@@ -230,6 +255,7 @@ Classification Report:
     accuracy                           0.94      1000
    macro avg       0.94      0.94      0.94      1000
 weighted avg       0.94      0.94      0.94      1000
+
 
 
 🧑‍💻 Author
