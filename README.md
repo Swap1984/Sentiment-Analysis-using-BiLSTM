@@ -11,14 +11,16 @@ The goal is to demonstrate industry-standard NLP workflow using Python, TensorFl
 If GitHub does not render the notebook properly, you can view it here:
 
 🔗 **Notebook Viewer (nbviewer)**  
-https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/notebooks/Sentiment_Analysis_BiLSTM.ipynb
+https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/Notebooks/data_loading_processing.ipynb
+)
 
 ## 📓 Jupyter Notebook (Rendered)
 
 If GitHub does not render the notebook properly, you can view it here:
 
 🔗 **Notebook Viewer (nbviewer)**  
-https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/notebooks/Sentiment_Analysis_BiLSTM.ipynb
+https://nbviewer.org/github/Swap1984/Sentiment-Analysis-using-BiLSTM/blob/main/Notebooks/data_loading_processing.ipynb
+
 
 **📌 Project Highlights**
 
