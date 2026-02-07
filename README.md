@@ -9,6 +9,7 @@ The goal is to demonstrate industry-standard NLP workflow using Python, TensorFl
 ## 📓 Jupyter Notebook (Rendered)
 
 The nb viewer link to the nootebook 
+
 https://nbviewer.org/url/https://raw.githubusercontent.com/Swap1984/Sentiment-Analysis-using-BiLSTM/main/Notebooks/data_loading_processing.ipynb
 
 🔗 **Notebook Viewer (nbviewer)**  
